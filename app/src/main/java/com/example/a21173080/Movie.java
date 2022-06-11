@@ -1,6 +1,7 @@
 package com.example.a21173080;
 
 public class Movie {
+
     String rnum;
     String rank;
     String rankInten;

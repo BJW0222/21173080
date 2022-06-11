@@ -19,6 +19,21 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/openDt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="15dp"
+                android:text="조회일자"
+                android:textSize="15dp"
+                android:textColor="@color/white"
+                android:background="#A0A0A0"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:orientation="horizontal">
 
             <ImageView
@@ -54,6 +69,35 @@
                     android:textSize="16sp"/>
 
             </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/rnum"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:paddingLeft="100dp"
+                android:text="순위"
+                android:textColor="#FF0000"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/audiAcc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:paddingRight="10dp"
+                android:gravity="center"
+                android:text="누적관객수"
+                android:textColor="#9933FF"
+                android:textSize="16sp"/>
+        </LinearLayout>
         </LinearLayout>
     </androidx.cardview.widget.CardView>
 
